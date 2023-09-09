@@ -1,0 +1,15 @@
+
+{
+    "name": "slackbot/test_task",
+    "type": "whmcs-addon",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "slackbot\\": "src"
+        }
+    },
+    "require": {
+        "twig/twig": "^2.0",
+        "php-curl-class/php-curl-class": "^8.6"
+    }
+}
